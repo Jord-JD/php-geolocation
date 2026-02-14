@@ -1,6 +1,6 @@
 # PHP Geolocation
 
-![CI](https://github.com/DivineOmega/php-geolocation/actions/workflows/ci.yml/badge.svg)
+![CI](https://github.com/Jord-JD/php-geolocation/actions/workflows/ci.yml/badge.svg)
 
 This package provides a PHP library that determines the country of an IP address.
 
@@ -9,7 +9,7 @@ This package provides a PHP library that determines the country of an IP address
 You can easily install PHP Geolocation with composer.
 
 ```
-composer require divineomega/php-geolocation
+composer require jord-jd/php-geolocation
 ```
 
 ## Usage
