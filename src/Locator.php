@@ -1,11 +1,11 @@
 <?php
 declare(strict_types=1);
 
-namespace DivineOmega\Geolocation;
+namespace JordJD\Geolocation;
 
-use DivineOmega\Geolocation\Interfaces\LocationProviderInterface;
-use DivineOmega\Geolocation\LocationProviders\WhoIs;
-use DivineOmega\Countries\Country;
+use JordJD\Geolocation\Interfaces\LocationProviderInterface;
+use JordJD\Geolocation\LocationProviders\WhoIs;
+use JordJD\Countries\Country;
 use Psr\Cache\CacheItemPoolInterface;
 
 class Locator

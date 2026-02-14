@@ -1,9 +1,9 @@
 <?php
 declare(strict_types=1);
 
-namespace DivineOmega\Geolocation\Interfaces;
+namespace JordJD\Geolocation\Interfaces;
 
-use DivineOmega\Countries\Country;
+use JordJD\Countries\Country;
 
 interface LocationProviderInterface
 {

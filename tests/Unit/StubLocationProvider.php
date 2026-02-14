@@ -1,11 +1,11 @@
 <?php
 declare(strict_types=1);
 
-namespace DivineOmega\Geolocation\Tests;
+namespace JordJD\Geolocation\Tests;
 
-use DivineOmega\Geolocation\Interfaces\LocationProviderInterface;
-use DivineOmega\Countries\Countries;
-use DivineOmega\Countries\Country;
+use JordJD\Geolocation\Interfaces\LocationProviderInterface;
+use JordJD\Countries\Countries;
+use JordJD\Countries\Country;
 
 class StubLocationProvider implements LocationProviderInterface
 {

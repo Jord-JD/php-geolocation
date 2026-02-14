@@ -2,7 +2,7 @@
 
 require_once __DIR__.'/../../vendor/autoload.php';
 
-use DivineOmega\Geolocation\Locator;
+use JordJD\Geolocation\Locator;
 
 $locator = new Locator;
 

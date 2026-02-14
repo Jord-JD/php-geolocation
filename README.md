@@ -25,7 +25,7 @@ $country = (new Locator)->getCountryByIP('93.184.216.34');
 
 // Returns a Country object
 /*
-object(DivineOmega\Countries\Country)#4693 (16) {
+object(JordJD\Countries\Country)#4693 (16) {
   ["name"]=>
   string(13) "United States"
   ["officialName"]=>

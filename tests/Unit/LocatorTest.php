@@ -1,11 +1,11 @@
 <?php
 declare(strict_types=1);
 
-namespace DivineOmega\Geolocation\Tests;
+namespace JordJD\Geolocation\Tests;
 
-use DivineOmega\Geolocation\Locator;
-use DivineOmega\Countries\Country;
-use DivineOmega\Geolocation\Tests\StubLocationProvider;
+use JordJD\Geolocation\Locator;
+use JordJD\Countries\Country;
+use JordJD\Geolocation\Tests\StubLocationProvider;
 use PHPUnit\Framework\TestCase;
 
 class LocatorTest extends TestCase

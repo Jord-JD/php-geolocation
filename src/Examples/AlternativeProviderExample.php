@@ -2,8 +2,8 @@
 
 require_once __DIR__.'/../../vendor/autoload.php';
 
-use DivineOmega\Geolocation\Locator;
-use DivineOmega\Geolocation\LocationProviders\IpStack;
+use JordJD\Geolocation\Locator;
+use JordJD\Geolocation\LocationProviders\IpStack;
 
 $locator = new Locator;
 $locator->setLocationProvider(new IpStack("my_ip_stack_api_key"));

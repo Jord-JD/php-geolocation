@@ -1,11 +1,11 @@
 <?php
 declare(strict_types=1);
 
-namespace DivineOmega\Geolocation\LocationProviders;
+namespace JordJD\Geolocation\LocationProviders;
 
-use DivineOmega\Geolocation\Interfaces\LocationProviderInterface;
-use DivineOmega\Countries\Countries;
-use DivineOmega\Countries\Country;
+use JordJD\Geolocation\Interfaces\LocationProviderInterface;
+use JordJD\Countries\Countries;
+use JordJD\Countries\Country;
 use GuzzleHttp\Client;
 
 class IpStack implements LocationProviderInterface
